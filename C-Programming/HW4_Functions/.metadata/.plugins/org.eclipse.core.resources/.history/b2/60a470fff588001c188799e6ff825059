@@ -1,0 +1,29 @@
+/*
+ * EX3.c
+ *
+ *  Created on: Feb 8, 2022
+ *      Author: Esraa Ebrahim
+ */
+/*C program to reverse a sentence using recursion */
+
+#include <stdio.h>
+void Reverse (char st[]);
+int main ()
+{
+	char str [20];
+	printf("Enter a sentence: ");
+	fflush(stdin);fflush(stdout);
+	fgets(str , 20 ,stdin );
+	Reverse (str);
+	return 0 ;
+}
+void Reverse (char st[])
+{
+	char c ;
+	scanf("%c",&c);
+	while( c != '\n')
+	{
+		Reverse();
+		printf("%c",c);
+	}
+}

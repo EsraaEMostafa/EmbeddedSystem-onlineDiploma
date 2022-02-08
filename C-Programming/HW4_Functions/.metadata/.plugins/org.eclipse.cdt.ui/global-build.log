@@ -1,0 +1,281 @@
+Info: Nothing to build for EX1
+16:12:23 **** Incremental Build of configuration Debug for project EX1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o EX1.o "..\\EX1.c" 
+..\EX1.c: In function 'main':
+..\EX1.c:18:2: warning: implicit declaration of function 'prime_numbers' [-Wimplicit-function-declaration]
+   18 |  prime_numbers();
+      |  ^~~~~~~~~~~~~
+..\EX1.c: At top level:
+..\EX1.c:21:6: warning: conflicting types for 'prime_numbers'
+   21 | void prime_numbers(int x ,int y)
+      |      ^~~~~~~~~~~~~
+..\EX1.c:18:2: note: previous implicit declaration of 'prime_numbers' was here
+   18 |  prime_numbers();
+      |  ^~~~~~~~~~~~~
+gcc -o EX1.exe EX1.o 
+16:12:36 **** Rebuild of configuration Debug for project EX2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o EX2.o "..\\EX2.c" 
+gcc -o EX2.exe EX2.o 
+16:12:38 **** Rebuild of configuration Debug for project EX3 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o EX3.o "..\\EX3.c" 
+gcc -o EX3.exe EX3.o 
+16:12:39 **** Rebuild of configuration Debug for project EX4 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o EX4.o "..\\EX4.c" 
+gcc -o EX4.exe EX4.o 
+16:13:11 **** Incremental Build of configuration Debug for project EX1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o EX1.o "..\\EX1.c" 
+..\EX1.c: In function 'main':
+..\EX1.c:19:2: error: too few arguments to function 'prime_numbers'
+   19 |  prime_numbers();
+      |  ^~~~~~~~~~~~~
+..\EX1.c:11:6: note: declared here
+   11 | void prime_numbers(int x ,int y);
+      |      ^~~~~~~~~~~~~
+Info: Nothing to build for EX2
+Info: Nothing to build for EX3
+Info: Nothing to build for EX4
+16:13:27 **** Incremental Build of configuration Debug for project EX1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o EX1.o "..\\EX1.c" 
+gcc -o EX1.exe EX1.o 
+Info: Nothing to build for EX2
+Info: Nothing to build for EX3
+Info: Nothing to build for EX4
+Info: Nothing to build for EX1
+16:15:30 **** Incremental Build of configuration Debug for project EX1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o EX1.o "..\\EX1.c" 
+gcc -o EX1.exe EX1.o 
+Info: Nothing to build for EX2
+Info: Nothing to build for EX3
+Info: Nothing to build for EX4
+Info: Nothing to build for EX1
+16:18:19 **** Incremental Build of configuration Debug for project EX1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o EX1.o "..\\EX1.c" 
+gcc -o EX1.exe EX1.o 
+Info: Nothing to build for EX2
+Info: Nothing to build for EX3
+Info: Nothing to build for EX4
+Info: Nothing to build for EX1
+16:22:24 **** Incremental Build of configuration Debug for project EX1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o EX1.o "..\\EX1.c" 
+gcc -o EX1.exe EX1.o 
+Info: Nothing to build for EX2
+Info: Nothing to build for EX3
+Info: Nothing to build for EX4
+Info: Nothing to build for EX1
+16:24:22 **** Incremental Build of configuration Debug for project EX1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o EX1.o "..\\EX1.c" 
+gcc -o EX1.exe EX1.o 
+Info: Nothing to build for EX2
+Info: Nothing to build for EX3
+Info: Nothing to build for EX4
+Info: Nothing to build for EX1
+16:25:21 **** Incremental Build of configuration Debug for project EX1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o EX1.o "..\\EX1.c" 
+..\EX1.c: In function 'prime_numbers':
+..\EX1.c:37:7: error: 'count' undeclared (first use in this function)
+   37 |   if (count == 0)
+      |       ^~~~~
+..\EX1.c:37:7: note: each undeclared identifier is reported only once for each function it appears in
+Info: Nothing to build for EX2
+Info: Nothing to build for EX3
+Info: Nothing to build for EX4
+16:25:59 **** Incremental Build of configuration Debug for project EX1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o EX1.o "..\\EX1.c" 
+gcc -o EX1.exe EX1.o 
+Info: Nothing to build for EX2
+Info: Nothing to build for EX3
+Info: Nothing to build for EX4
+Info: Nothing to build for EX1
+16:29:07 **** Incremental Build of configuration Debug for project EX1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o EX1.o "..\\EX1.c" 
+gcc -o EX1.exe EX1.o 
+Info: Nothing to build for EX2
+Info: Nothing to build for EX3
+Info: Nothing to build for EX4
+Info: Nothing to build for EX1
+Info: Nothing to build for EX1
+16:35:53 **** Incremental Build of configuration Debug for project EX2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o EX2.o "..\\EX2.c" 
+gcc -o EX2.exe EX2.o 
+Info: Nothing to build for EX3
+Info: Nothing to build for EX4
+Info: Nothing to build for EX2
+Info: Nothing to build for EX1
+Info: Nothing to build for EX2
+16:48:18 **** Incremental Build of configuration Debug for project EX3 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o EX3.o "..\\EX3.c" 
+..\EX3.c: In function 'Reverse':
+..\EX3.c:21:13: warning: multi-character character constant [-Wmultichar]
+   21 |  while(c != '/0')
+      |             ^~~~
+gcc -o EX3.exe EX3.o 
+Info: Nothing to build for EX4
+Info: Nothing to build for EX1
+Info: Nothing to build for EX2
+16:49:01 **** Incremental Build of configuration Debug for project EX3 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o EX3.o "..\\EX3.c" 
+gcc -o EX3.exe EX3.o 
+Info: Nothing to build for EX4
+Info: Nothing to build for EX1
+Info: Nothing to build for EX2
+16:49:13 **** Incremental Build of configuration Debug for project EX3 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o EX3.o "..\\EX3.c" 
+gcc -o EX3.exe EX3.o 
+Info: Nothing to build for EX4
+Info: Nothing to build for EX3
+Info: Nothing to build for EX3
+Info: Nothing to build for EX3
+Info: Nothing to build for EX1
+Info: Nothing to build for EX2
+16:50:42 **** Incremental Build of configuration Debug for project EX3 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o EX3.o "..\\EX3.c" 
+gcc -o EX3.exe EX3.o 
+c:/mingw/bin/../lib/gcc/x86_64-w64-mingw32/10.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe: cannot open output file EX3.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+Info: Nothing to build for EX4
+16:50:47 **** Incremental Build of configuration Debug for project EX3 ****
+Info: Internal Builder is used for build
+gcc -o EX3.exe EX3.o 
+Info: Nothing to build for EX1
+Info: Nothing to build for EX2
+16:51:56 **** Incremental Build of configuration Debug for project EX3 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o EX3.o "..\\EX3.c" 
+gcc -o EX3.exe EX3.o 
+c:/mingw/bin/../lib/gcc/x86_64-w64-mingw32/10.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe: cannot open output file EX3.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+Info: Nothing to build for EX4
+16:52:02 **** Incremental Build of configuration Debug for project EX3 ****
+Info: Internal Builder is used for build
+gcc -o EX3.exe EX3.o 
+Info: Nothing to build for EX1
+Info: Nothing to build for EX2
+17:35:35 **** Incremental Build of configuration Debug for project EX3 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o EX3.o "..\\EX3.c" 
+gcc -o EX3.exe EX3.o 
+c:/mingw/bin/../lib/gcc/x86_64-w64-mingw32/10.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe: cannot open output file EX3.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+Info: Nothing to build for EX4
+17:35:41 **** Incremental Build of configuration Debug for project EX3 ****
+Info: Internal Builder is used for build
+gcc -o EX3.exe EX3.o 
+Info: Nothing to build for EX1
+Info: Nothing to build for EX2
+17:43:59 **** Incremental Build of configuration Debug for project EX3 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o EX3.o "..\\EX3.c" 
+..\EX3.c: In function 'main':
+..\EX3.c:17:2: error: too many arguments to function 'Reverse'
+   17 |  Reverse (str);
+      |  ^~~~~~~
+..\EX3.c:10:6: note: declared here
+   10 | void Reverse (void);
+      |      ^~~~~~~
+..\EX3.c: At top level:
+..\EX3.c:20:6: error: conflicting types for 'Reverse'
+   20 | void Reverse (char st[])
+      |      ^~~~~~~
+..\EX3.c:10:6: note: previous declaration of 'Reverse' was here
+   10 | void Reverse (void);
+      |      ^~~~~~~
+..\EX3.c: In function 'Reverse':
+..\EX3.c:26:3: error: too few arguments to function 'Reverse'
+   26 |   Reverse();
+      |   ^~~~~~~
+..\EX3.c:20:6: note: declared here
+   20 | void Reverse (char st[])
+      |      ^~~~~~~
+Info: Nothing to build for EX4
+Info: Nothing to build for EX1
+Info: Nothing to build for EX2
+17:44:16 **** Incremental Build of configuration Debug for project EX3 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o EX3.o "..\\EX3.c" 
+..\EX3.c: In function 'Reverse':
+..\EX3.c:26:3: error: too few arguments to function 'Reverse'
+   26 |   Reverse();
+      |   ^~~~~~~
+..\EX3.c:20:6: note: declared here
+   20 | void Reverse (char st[])
+      |      ^~~~~~~
+Info: Nothing to build for EX4
+Info: Nothing to build for EX1
+Info: Nothing to build for EX2
+17:44:29 **** Incremental Build of configuration Debug for project EX3 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o EX3.o "..\\EX3.c" 
+gcc -o EX3.exe EX3.o 
+c:/mingw/bin/../lib/gcc/x86_64-w64-mingw32/10.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe: cannot open output file EX3.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+Info: Nothing to build for EX4
+Info: Nothing to build for EX1
+Info: Nothing to build for EX2
+17:49:26 **** Incremental Build of configuration Debug for project EX3 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o EX3.o "..\\EX3.c" 
+gcc -o EX3.exe EX3.o 
+c:/mingw/bin/../lib/gcc/x86_64-w64-mingw32/10.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe: cannot open output file EX3.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+Info: Nothing to build for EX4
+Info: Nothing to build for EX1
+Info: Nothing to build for EX2
+18:12:17 **** Incremental Build of configuration Debug for project EX3 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o EX3.o "..\\EX3.c" 
+gcc -o EX3.exe EX3.o 
+c:/mingw/bin/../lib/gcc/x86_64-w64-mingw32/10.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe: cannot open output file EX3.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+Info: Nothing to build for EX4
+Info: Nothing to build for EX1
+Info: Nothing to build for EX2
+18:12:32 **** Incremental Build of configuration Debug for project EX3 ****
+Info: Internal Builder is used for build
+gcc -o EX3.exe EX3.o 
+c:/mingw/bin/../lib/gcc/x86_64-w64-mingw32/10.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe: cannot open output file EX3.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+Info: Nothing to build for EX4
+18:12:37 **** Incremental Build of configuration Debug for project EX3 ****
+Info: Internal Builder is used for build
+gcc -o EX3.exe EX3.o 
+c:/mingw/bin/../lib/gcc/x86_64-w64-mingw32/10.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe: cannot open output file EX3.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+Info: Nothing to build for EX1
+Info: Nothing to build for EX2
+18:13:39 **** Incremental Build of configuration Debug for project EX3 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o EX3.o "..\\EX3.c" 
+gcc -o EX3.exe EX3.o 
+c:/mingw/bin/../lib/gcc/x86_64-w64-mingw32/10.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe: cannot open output file EX3.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+Info: Nothing to build for EX4
+18:13:42 **** Incremental Build of configuration Debug for project EX3 ****
+Info: Internal Builder is used for build
+gcc -o EX3.exe EX3.o 
+Info: Nothing to build for EX3
+Info: Nothing to build for EX1
+Info: Nothing to build for EX2
+Info: Nothing to build for EX3
+18:28:15 **** Incremental Build of configuration Debug for project EX4 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o EX4.o "..\\EX4.c" 
+gcc -o EX4.exe EX4.o 
+Info: Nothing to build for EX4
